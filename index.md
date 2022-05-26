@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Drem yol lok, Dii fahdon.
 
-Maybe say a some things about yourself.
+Dont know how far I can get.
 
-Or maybe what you plan to blog about.
+But I ll try. Guess its not too late.
