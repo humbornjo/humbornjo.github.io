@@ -7,7 +7,7 @@
 
 Logically, it should be zero, but in intel machine 
 
-```c
+```c Code
 #include<stdio.h>
 
 int main(){
