@@ -21,7 +21,7 @@
    b. Ctrl \<Page down>/Ctrl \<Page up>
    
    c. Shift Ctrl \<Page Up>/Shift Ctrl \<Page Down>, Move to the tab to the left/right
-### CLT
+### CLI
 
 1. **Shift Ctrl C/V**, you are already a master now
 
@@ -80,4 +80,7 @@
 
 ## Rush Github
 
-1. `git remote add origin https://github.com/github_name/repo_name.git)`
+1. `git remote add origin https://github.com/github_name/repo_name.git)`, creates a connection between your local repo and the remote repo on Github.
+2. `git branch -M main`, changes your main branch's name to "main". The default branch might be created as "master", but "main" is the standard name for this repo now.
+3. `git push -u origin main`, pushes your repo from your local device to GitHub.
+
