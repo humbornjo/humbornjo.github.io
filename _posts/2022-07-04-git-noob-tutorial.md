@@ -70,7 +70,7 @@
 
 ### In Git, a ==branch== is a new/separate version of the main repository.
 
-![why branch]([./whyBranch.png](https://github.com/humbornjo/humbornjo.github.io/raw/main/_posts/whyBranch.png))
+![why branch](https://github.com/humbornjo/humbornjo.github.io/raw/main/_posts/whyBranch.png)
 
 1. `git branch [BRANCH NAME]` to create branch
 2. `git branch` list all the branches
