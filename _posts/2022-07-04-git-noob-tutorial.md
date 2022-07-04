@@ -80,7 +80,78 @@
 
 ## Rush Github
 
+### update
+
 1. `git remote add origin https://github.com/github_name/repo_name.git)`, creates a connection between your local repo and the remote repo on Github.
 2. `git branch -M main`, changes your main branch's name to "main". The default branch might be created as "master", but "main" is the standard name for this repo now.
 3. `git push -u origin main`, pushes your repo from your local device to GitHub.
 
+### pull
+
+1. `pull` is a combination of 2 different commands:
+   - `fetch`
+   - `merge`
+
+2. `fetch` gets all the change history of a tracked branch/repo.
+3. `merge` combines the current branch, with a specified branch.
+
+### The GitHub flow works like this:
+
+- Create a new Branch
+- Make changes and add Commits
+- ==Open a Pull Request==
+- ==Review==
+- ==Deploy==
+- ==Merge==
+
+highlighted part should be finish in Github
+
+### Fork & Clone
+
+1. A `fork` is a copy of a repository. This is useful when you want to contribute to someone else's project or start your own project based on theirs.
+
+2. ==`fork` is not a command in Git==, but something offered in GitHub and other repository hosts.
+3. Now we have our own `fork`, but ==only on GitHub==. We also want a `clone` on our local Git to keep working on it. ==A `clone` is a full copy of a repository==, including all logging and versions of files.
+
+### Git ignore 
+
+When sharing your code with others, there are often files or parts of your project, you do not want to share.
+
+Examples
+
+- log files
+- temporary files
+- hidden files
+- personal files
+- etc.
+
+Git can specify which files or parts of your project should be ignored by Git using a `.gitignore` file.
+
+Git will not track files and folders specified in `.gitignore`. However, the `.gitignore` file itself **IS** tracked by Git. ([more](https://www.w3schools.com/git/git_ignore.asp?remote=github))
+
+```
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+```
+
+It is also possible to ignore files or folders but not show it in the distubuted `.gitignore` file.
+
+These kinds of ignores are specified in the `.git/info/exclude` file. It works the same way as `.gitignore` but are not shown to anyone else.
+
+### Story never ends
+
+1. `git remote rename [ORIGIN NAME] [NEW NAME]` rename the remote repo, use `git remote -v` to check
+
+2. `fetch` do not make any change to the file, `merge` do.
+
+3. remote more than one repo, refer to this [click me](https://www.w3schools.com/git/git_clone.asp?remote=github)
+
+4. how to contribute to other repos: 
+
+   - play with your fork
+   - pull request in your forked repo on Github
+
+   
