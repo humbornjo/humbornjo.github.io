@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🦉&lt;/text&gt;&lt;/svg&gt;">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>MIT 6.5840&nbsp;|&nbsp;humblog</title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="MIT 6.5840">
+  
+    <meta name="description" content="MIT 6.5840 note">
+    <meta property="og:description" content="MIT 6.5840 note">
+  
+  
+    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;➕&lt;/text&gt;&lt;/svg&gt;">
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🦉&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;😈&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
+    <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;➕&lt;/text&gt;&lt;/svg&gt;"></span>
+      </div>
+    
+    <h1 class="Header__Title">MIT 6.5840</h1>
+    
+      <div class="DateTagBar">
+        
+          <span class="DateTagBar__Item DateTagBar__Date">Posted on Fri, Apr 28, 2023</span>
+        
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/90f2cb4490ab40b7a73602bfb83a314c" class="PageRoot"><div id="https://www.notion.so/4fea7cb88f1c458694d52a635a708e31" class="ColorfulBlock ColorfulBlock--BgGray Callout"><div class="Callout__Icon"><div class="Icon">😇</div></div><p class="Callout__Content"><span class="SemanticStringArray"><span class="SemanticString">All I need to know about 6.5840
+Full code on:
+</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://github.com/humbornjo/MIT-6.5840">https://github.com/humbornjo/MIT-6.5840</a></span></span></p></div><h1 id="https://www.notion.so/0703010f5ea445708782154f65ffcbc1" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/0703010f5ea445708782154f65ffcbc1"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Lab1</span></span></h1><div id="https://www.notion.so/6a7812d7dfe44fbfbbc0835caa7d792e" class="ColorfulBlock ColorfulBlock--BgGray Callout"><div class="Callout__Icon"><div class="Icon">💡</div></div><p class="Callout__Content"><span class="SemanticStringArray"><span class="SemanticString">虽然本次实验没有触及，但是GFS才是Map Reduce的灵魂。这也是很多MR方法局限在单机运行的根本原因。在分布式的场景中，intermediate的交换才是事实上的重点。</span></span></p></div><h2 id="https://www.notion.so/296cfffe10bd42959678e7d7fd9eee2b" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/296cfffe10bd42959678e7d7fd9eee2b"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Difficulties &amp; solution</span></span></h2><details id="https://www.notion.so/07f94d181c3c45229de94b95d5c4a094" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">coordinator 作为调度者，就算其元素都是线程安全的，依然是需要加一个整体的锁的。（仅针对我的设计与实现）</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/47bcae09dd704889bae09d40b1e01577" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>type Coordinator struct {
+	// Your definitions here.
+	nMap     int
+	nReduce  int
+	stage    int
+	currTask chan Task
+	runnTask map[Task]chan int
+	lock     sync.RWMutex
+}</span></span></span></code></pre><div id="https://www.notion.so/c733117872be43bf9f39938235ecf66a" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">在我的实现中，当currTask和runnTask全为空时方可触发stage的转换（比如从MAP转移到REDUCE）。如果分别加锁，就可能导致 → </span></span></p></div><ol class="NumberedListWrapper"><li id="https://www.notion.so/11077199901542b697ddbdcd720f5c5d" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">检查currTask时为空</span></span></li><li id="https://www.notion.so/94a245bd7d5e4215a0a40543d974d67c" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">runnTask超时，删除任务，未完成的任务重新入队currTask</span></span></li><li id="https://www.notion.so/acba106738cf473ebe5ce58eb723fcd8" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">检查runnTask，也为空</span></span></li><li id="https://www.notion.so/3841d2c747ac472bbe430430dc7762ee" class="NumberedList" value="4"><span class="SemanticStringArray"><span class="SemanticString">状态转换了，MR失败</span></span></li></ol></div></details><details id="https://www.notion.so/26896ccd47a84f4185aa94064e9f1d42" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">rpc的设计与细节</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/d414d212a25c4eab9ae3cade1b201d03" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>/*
+type Task struct {
+	Tid   int
+	Fname string
+}
+*/
+
+type AskForTaskArgs struct {
+	Wid int
+}
+
+type AskForTaskReply struct {
+	Stage int
+	Task  Task
+	Nout  int
+}
+
+type ReportForTaskArgs struct {
+	Task Task
+}
+
+type ReportForTaskReply struct {
+	Foo bool
+}</span></span></span></code></pre><div id="https://www.notion.so/8a34e1f6a04146828048854cb704904a" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">总体分为Ask和Report两种，主要的问题在于Report RPC前后临时文件的保存和状态的转变，下面进行分类分析。</span></span></p></div><ol class="NumberedListWrapper"><li id="https://www.notion.so/75d0c4c6816449fd8dbf7dcc4c7acc87" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">MAP阶段的Report,是在RPC获得true的回复后进行保存临时文件，还是先保存临时文件，再call RPC。</span></span><ol class="NumberedListWrapper"><li id="https://www.notion.so/5c2dbbebbf874e6984b17b6b43d2081b" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">如果在获得RPC回复后再保存。如果RPC结果为true（在我的实现中，是</span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">reply.Foo == true</code></span><span class="SemanticString">）。会出现一个恐怖的事，那就是coordinator已经转换状态了。开始分发REDUCE的任务了，但是MAP阶段的intermediate文件还没有保存完。这就会导致，如果有一个Worker此时恰好接了任务，并竞争运行了，然而目标文件甚至不存在，最终REDUCE的任务结果出错。如果RPC结果为false，影响不大，就算保存了也会被另一个Worker的文件写入替换。</span></span></li><li id="https://www.notion.so/b3dccb9dbddc471c949129778439f0d9" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">如果在获得RPC回复前再保存。如果RPC结果为true，不会有任何问题，解决了上方的问题。如果RPC结果为false，影响不大，就算保存了也会被另一个Worker的文件写入替换。</span></span></li><li id="https://www.notion.so/894eadb3c6c940e49ebf9030f692fb36" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">综上，选择在RPC回复前保存。</span></span></li></ol></li><li id="https://www.notion.so/4009226cd42246d584e86f4286a963ab" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">Reduce阶段的Report，没啥好说的，保存必然是在RPC之前的，因为实现borrow了mrsequential的代码，目前来看，换成在RPC之后阻塞地保存，唯一的风险就是Worker的临时宕机。（最后不要忘了删除临时文件）</span></span><pre id="https://www.notion.so/ed373ccba8f941f78a91db447f84d4a1" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>if !ReportForTask(
+	&amp;ReportForTaskArgs{Task: reply.Task}, 
+	&amp;ReportForTaskReply{}) {
+	os.Remove(oname)
+} else {
+	for _, filename := range filenames {
+		os.Remove(filename)
+	}
+}</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/a68d9dc391324d01aeaba4f89b0f5ffa" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">PASS LOG</span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/5758a079a85748828d725dd9880298fe" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>MIT-6.5840/src/main via 🐹 v1.20.6 
+<span class="token operator">></span> <span class="token function">bash</span> test-mr.sh
+*** Starting <span class="token function">wc</span> test.
+--- <span class="token function">wc</span> test: PASS
+*** Starting indexer test.
+--- indexer test: PASS
+*** Starting map parallelism test.
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+--- reduce parallelism test: PASS
+*** Starting job count test.
+--- job count test: PASS
+*** Starting early <span class="token builtin class-name">exit</span> test.
+--- early <span class="token builtin class-name">exit</span> test: PASS
+*** Starting crash test.
+--- crash test: PASS
+*** PASSED ALL TESTS</span></span></span></code></pre></div></div><h1 id="https://www.notion.so/2f89eebb5c8a4ef1b83fd139159ae06f" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/2f89eebb5c8a4ef1b83fd139159ae06f"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Lab2</span></span></h1><div id="https://www.notion.so/91bcb824b0214818aa8f0421831634bc" class="ColorfulBlock ColorfulBlock--BgGray Callout"><div class="Callout__Icon"><div class="Icon">💡</div></div><p class="Callout__Content"><span class="SemanticStringArray"><span class="SemanticString">What u deserve to understand is that, even raft can make mistake. When the delay is high and command flood in.</span></span></p></div><h2 id="https://www.notion.so/ce15b884233f456ba292ead5012cc38b" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/ce15b884233f456ba292ead5012cc38b"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Core Idea</span></span></h2><ol class="NumberedListWrapper"><li id="https://www.notion.so/ec1c4cce0e354ae09b392b350c5ef46c" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">Raft RPCS is idempotent</span></span></li><li id="https://www.notion.so/fdce6afb89994694af8337a877bd2f19" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">Randomization causes simplicity</span></span></li><li id="https://www.notion.so/fad1b278e9f7469da2093b29f6f2d22b" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">Leader takes it all</span></span></li><li id="https://www.notion.so/0163d30d48dc4be49bb8998045bcb6eb" class="NumberedList" value="4"><span class="SemanticStringArray"><span class="SemanticString">Logical timing instead of physical timing</span></span></li></ol><p id="https://www.notion.so/7f06ab4796654848a3238790bea1b417" class="Equation" data-latex="broadcastTime ≪ electionTimeout ≪ MTBF"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mi>r</mi><mi>o</mi><mi>a</mi><mi>d</mi><mi>c</mi><mi>a</mi><mi>s</mi><mi>t</mi><mi>T</mi><mi>i</mi><mi>m</mi><mi>e</mi><mo>≪</mo><mi>e</mi><mi>l</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mi>T</mi><mi>i</mi><mi>m</mi><mi>e</mi><mi>o</mi><mi>u</mi><mi>t</mi><mo>≪</mo><mi>M</mi><mi>T</mi><mi>B</mi><mi>F</mi></mrow><annotation encoding="application/x-tex">broadcastTime ≪ electionTimeout ≪ MTBF</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.73354em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">o</span><span class="mord mathdefault">a</span><span class="mord mathdefault">d</span><span class="mord mathdefault">c</span><span class="mord mathdefault">a</span><span class="mord mathdefault">s</span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault">i</span><span class="mord mathdefault">m</span><span class="mord mathdefault">e</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≪</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73354em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">e</span><span class="mord mathdefault">c</span><span class="mord mathdefault">t</span><span class="mord mathdefault">i</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault">i</span><span class="mord mathdefault">m</span><span class="mord mathdefault">e</span><span class="mord mathdefault">o</span><span class="mord mathdefault">u</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≪</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span></span></p><h2 id="https://www.notion.so/1410681baf994644a532736f7b5fbf06" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/1410681baf994644a532736f7b5fbf06"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Mind Trail</span></span></h2><a id="https://www.notion.so/e859552bc59749ed9edefab320fafd87" class="Page" href="https://www.notion.so/e859552bc59749ed9edefab320fafd87"><div><div class="Page__Icon"><div class="Icon">✔️</div></div><div class="Page__Title"><span class="SemanticStringArray"><span class="SemanticString">lab2 Raft</span></span></div></div></a><h2 id="https://www.notion.so/06cec3b4463b40aa8f510441fa460a7d" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/06cec3b4463b40aa8f510441fa460a7d"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Difficulties &amp; solution</span></span></h2><h3 id="https://www.notion.so/8fda6a121f014aca96385a822c2d4a4f" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/8fda6a121f014aca96385a822c2d4a4f"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">2A</span></span></h3><div id="https://www.notion.so/ccae0057c6a7425db4f9d9c2e6c6879e" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">Term严格小的才能给Term大的server投票，但是容易出现以下情况 (忽略第三列)，即server S1和S2几乎以同一时间开始选举 (即使存在随机timeout)，导致多轮都无法选出leader。</span></span></del></div></div></div><details id="https://www.notion.so/9cbe30420f1a4980800cefebcae97eb5" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/717c290143c4465c8f4941eb6402ed80" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S0 C0 ask for vote, T: 8                                                                                                                                     
+S0 not leader, election timeout...                                                                                                                           
+S0 convert to candidate, calling election T: 7                                                                                                               
+                                                                                                         S2 C0 ask for vote, T: 8                            
+                                                     S1 C0 ask for vote, T: 8                                                                                
+S0 not leader, election timeout...                                                                                                                           
+S0 convert to candidate, calling election T: 8                                                                                                               
+                                                                                                         S2 C0 ask for vote, T: 9                            
+                                                     S1 not leader, election timeout...                                                                      
+                                                     S1 convert to candidate, calling election T: 8                                                          
+                                                                                                         S2 C0 ask for vote, T: 9                            
+                                                     S1 C0 ask for vote, T: 9                                                                                
+S0 C0 ask for vote, T: 9                                                                                                                                     
+S0 not leader, election timeout...                                                                                                                           
+S0 convert to candidate, calling election T: 9                                                                                                               
+                                                                                                         S2 C0 ask for vote, T: 10                           
+                                                     S1 C0 ask for vote, T: 10                                                                               
+                                                     S1 not leader, election timeout...                                                                      
+                                                     S1 convert to candidate, calling election T: 9                                                          
+                                                                                                         S2 C0 ask for vote, T: 10                           
+S0 C0 ask for vote, T: 10                                                                                                                                    
+S0 -&gt; S1 vote false, VT: 0                                                                                                                                   
+S0 not leader, election timeout...                                                                                                                           
+S0 convert to candidate, calling election T: 10</span></span></span></code></pre></div></details><details id="https://www.notion.so/88d1c5c3cfdc476cba63b66e05cfd3a8" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/9f6b136279a04e76bb9c488741092eb0" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">在RequestVote RPCs中就更新了自己的Term，使得落后的server一下子就追上了因random而领先的server</span></span></span></li><li id="https://www.notion.so/ab3313a308dd4d81889f3800762afdf3" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">timeout区间为 [150, 300] ms</span></span></li></ol></div></details><details id="https://www.notion.so/6098651cb9b94eef8ec1401e7d5bd068" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">可能的解决办法</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/10c66b52f65a464a946f904461927692" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString"><del class="SemanticString__Fragment SemanticString__Fragment--Strike"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">不在RequestVote RPCs中更新Term。</span></del></span><span class="SemanticString"><del class="SemanticString__Fragment SemanticString__Fragment--Strike">
+</del></span><span class="SemanticString">在更新以后把isTimeout置为false，跳过一轮选举自增。</span></span></li><li id="https://www.notion.so/3390de38abe54ec7a00af61d6d36ff50" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">增大timeout的区间</span></span></li></ol></div></details><details id="https://www.notion.so/e3b56ee97f5a4e38b74edfbeb5b3dd27" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><div id="https://www.notion.so/99e07b3d7e9c44e68d011324838d642b" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">采用了方法1，并将timeout区间修改为 [200, 500] ms，暂时解决问题。</span></span></span></p></div></div></details><div id="https://www.notion.so/40ce5f649be142a58a082bb23681349c" class="Divider"></div><div id="https://www.notion.so/ffa158db379048eb854c36ed6bb37f39" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">观察第二列和最后一列，可以发现这里 S1 和 S6 出现了脑裂现象，但是并未得到解决。原因是两方此时的Term相同，两方互相会拒绝对方的heartbeat log而不会进行状态转换。</span></span></del></div></div></div><details id="https://www.notion.so/ece1fc7b435549fa8790878f4a1b0417" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/3dc9485d23b54c669ec603ee74f6fd74" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>                       S1 multi leaders(2)                                                                                                                 
+                       T: 7                                                                                                                                
+                                                                                                                                     S6 multi leaders(2) T:
+                                                                                                                                     7                     
+                                                                                                                                     S6 -&gt; S5 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                       S1 -&gt; S6 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}                                                                                                                    
+                                             S2 convert to                                                                                                 
+                                             candidate, calling                                                                                            
+                                             election T: 7                                                                                                 
+                                                                                                                                     S6 C0 ask for vote, T:
+                                                                                                                                     8                     
+                                                                                                                                     S6 -&gt; S0 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                                                                                                                                     S6 -&gt; S1 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                                                                                                                                     S6 -&gt; S2 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                                                                                                                                     S6 -&gt; S3 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                                                                                                                                     S6 -&gt; S4 T: 7, send   
+                                                                                                                                     {PLI: 0, PLT: 0}      
+                       S1 -&gt; S0 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}                                                                                                                    
+                       S1 -&gt; S2 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}                                                                                                                    
+                       S1 -&gt; S3 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}                                                                                                                    
+                       S1 -&gt; S4 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}                                                                                                                    
+                       S1 -&gt; S5 T: 7, send                                                                                                                 
+                       {PLI: 0, PLT: 0}</span></span></span></code></pre></div></details><details id="https://www.notion.so/bde5ab9f97394bcabb700231baead007" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/d87d7f54117345cc86fd4b3521f42370" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">Term相同，在身为leader的同时对峙，由于拒绝了heartbeat log导致的状态无法转换</span></span></li></ol></div></details><details id="https://www.notion.so/66b08f6eed954968afbd62000abf2564" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">可能的解决方法</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/2398abcec87d4b7e96386e657804e279" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">本质上是在disconnect的时候没有检查自己的killed()，及时转换为follower。论文中没有提到Term相同的情况下Entry (Including heartbeat)的处理情况。</span></span></li></ol></div></details><details id="https://www.notion.so/7117de1a111c4fea8ee93119448e1341" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/c6d77f27a36e46c9ac4bf1b2be0ca3fd" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在每个heartbeat loop中检查killed()，及时转换状态。</span></span></li><li id="https://www.notion.so/e46a8debef554986b4476e074aacca01" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">运行时又发现了一个小问题，下面分析出问题的代码。AppendEntry分为三个情况，currTerm &lt; args.Term, currTerm = args.Term 和 currTerm &gt; args.Term。</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">第一种情况</strong></span><span class="SemanticString">没啥好说的，</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">第二种情况下</strong></span><span class="SemanticString">，若server还未投票 (voteFor == -1) 则server一定不是Leader；投了票的情况下拒绝可以保证一个Term只投一次票的原则。第三种情况下，需要注意，server的状态可能是三个状态中的任意一种，所以一定要重置server的状态为Follower来保证Term大的优先的原则。</span></span></li></ol><pre id="https://www.notion.so/c5859f3bb86744d983888cd2e927df18" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>if rf.currTerm &gt; args.Term {
+	reply.VoteGranted = false
+	DebugLog(dVote, &quot;S%d -&gt; S%d vote false, T: %d, CT: %d\n&quot;, rf.me, args.CandidateId, rf.currTerm, args.Term)
+	return
+} else if rf.currTerm == args.Term {
+	if rf.votedFor == -1 {
+		rf.votedFor = args.CandidateId
+		reply.VoteGranted = true
+		DebugLog(dVote, &quot;S%d -&gt; S%d vote true, same term\n&quot;, rf.me, args.CandidateId)
+		return
+	} else {
+		reply.VoteGranted = false
+		DebugLog(dVote, &quot;S%d -&gt; S%d vote false, VT: %d\n&quot;, rf.me, args.CandidateId, rf.votedFor)
+		return
+	}
+} else {
+	rf.currTerm = args.Term
+	rf.isTimeout = false
+	rf.state = Follower // !!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!
+	rf.votedFor = args.CandidateId
+	reply.VoteGranted = true
+	DebugLog(dVote, &quot;S%d -&gt; S%d vote true, from T: %d to CT: %d\n&quot;, rf.me, args.CandidateId, reply.Term, rf.currTerm)
+	return
+}</span></span></span></code></pre></div></details><div id="https://www.notion.so/6520764208e24fa89463c98fc2f1b754" class="Divider"></div><div id="https://www.notion.so/7f2d55b4f5604c08ad854c7fc4aeff56" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">PASS LOG</span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/12b36140689b47f0b5997df3fd1a0502" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>humborn@shin MIT-6.5840/src/raft on master [!] [!]                                                                                        󱑆 09:36:06
+ ➜ go test -run 2A                                    
+Test (2A): initial election ...
+  ... Passed --   3.0  3   58   15440    0
+Test (2A): election after network failure ...
+  ... Passed --   4.4  3  140   27904    0
+Test (2A): multiple elections ...
+  ... Passed --   6.2  7  686  129664    0
+PASS
+ok      6.824/raft      13.599s</span></span></span></code></pre></div></div><div id="https://www.notion.so/7d61923ef9d7430da0fdba2deec4cd5f" class="Divider"></div><div id="https://www.notion.so/45803a46eeeb4226a3a851ce0dd2831e" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><h3 id="https://www.notion.so/f68ac6e6407f4899a5664814ab46ba1b" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/f68ac6e6407f4899a5664814ab46ba1b"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">2B</span></span></h3><div id="https://www.notion.so/b1792bb57e2d4c9380d78b5d114fdaed" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">Server在成功append以后，竟然没有让Leader更新commitIndex</span></span></del></div></div></div><details id="https://www.notion.so/bbf521e5f6c14ce7a0792bd83247ca05" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/142215d0ecb24b2ea86f820e565dc39b" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S0 not leader, election timeout...                                                                                                                         
+                                        S1 -&gt; S2 T: 1, send {PLI: 0, PLT: 0,                                                                               
+                                        CI: 0}                                                                                                             
+                                        S1 -&gt; S0 T: 1, send {PLI: 0, PLT: 0,                                                                               
+                                        CI: 0}                                                                                                             
+S0 -&gt; S1 append ok T: 1, LENLOG: 2                                                                                                                         
+                                                                               S2 -&gt; S1 append ok T: 1, LENLOG: 2                                          
+                                                                               S2 not leader, election timeout...                                          
+                                        S1 -&gt; S2 T: 1, send {PLI: 1, PLT: 1,                                                                               
+                                        CI: 0}                                                                                                             
+                                        S1 -&gt; S0 T: 1, send {PLI: 1, PLT: 1,                                                                               
+                                        CI: 0}                                                                                                             
+S0 -&gt; S1 append ok T: 1, LENLOG: 2                                                                                                                         
+                                                                               S2 -&gt; S1 append ok T: 1, LENLOG: 2                                          
+                                        S1 -&gt; S2 T: 1, send {PLI: 0, PLT: 0,                                                                               
+                                        CI: 0}                                                                                                             
+                                        S1 -&gt; S0 T: 1, send {PLI: 0, PLT: 0,                                                                               
+                                        CI: 0}                                                                                                             
+S0 -&gt; S1 append ok T: 1, LENLOG: 2                                                                                                                         
+                                                                               S2 -&gt; S1 append ok T: 1, LENLOG: 2                                          
+FAIL
+FAIL    6.824/raft      2.313s</span></span></span></code></pre></div></details><details id="https://www.notion.so/8f84e472c6824e799c6e7550e2761bb2" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/90eb7793afb044ec9e7758c3a853c853" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">sort中索引有问题，原来是从小到大排序后，取len(rf.peers)/2-1，当#Server为3时，结果为0,很显然不对。</span></span></li><li id="https://www.notion.so/4cbb7bc0f1584937863e4e125ffc7180" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">搞错索引了，AppendEntries时可能会传入空Entries。这时想普适地满足AppendEntries RPCs的最后一条实现规则，就需要取server自身logEntries的最后一条entry的index</span></span></li><li id="https://www.notion.so/15eb0916cab1497eb28e5adac5a17953" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">创建新logEntry时index和term位置反了，cao!</span></span></li></ol></div></details><details id="https://www.notion.so/fe54db70c4c246e9b07ca98f5b3e5eab" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/580979e2b4e0483b8a8d5ed16b39ed17" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">改为(len(rf.peers)-1)/2</span></span></li><li id="https://www.notion.so/014a396ec19f43fa9d46c121d16740e4" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">由args.Entries→rf.logEntries取最后一个entry的index</span></span></li><li id="https://www.notion.so/d633ab54fee44cb9b96c2aaeb40afec5" class="NumberedList" value="3"><span class="SemanticStringArray"><span class="SemanticString">cao！</span></span></li></ol></div></details><details id="https://www.notion.so/66fd91b4eec74a219a074f46cff6140b" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Task log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/0f5c9f21cb174254be37d4b48977fd71" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜ go test -run BasicAgree                          
+Test (2B): basic agreement ...
+  ... Passed --   0.5  3   16    4258    3
+PASS
+ok      6.824/raft      0.494s</span></span></span></code></pre></div></details><div id="https://www.notion.so/e3b7e099818d489a8a5cb77b3dd440d3" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">如果一个server掉线了，会不断</span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">StartElection()</code></span><span class="SemanticString">自增，当它重联时，它的Term将会很大。就会导致一个情况，当前 leader 的 AppendEntries RPCs 将会被拒绝，reply中的Term巨大，会将Leader打回Follower并更新Term,最好给Leader特权，让Leader尽快timeout,再次成为Leader；由它召开的Election也会被其他server拒绝(LastLogIndex很小)并使其他server更新Term，不用给特权通道。但是在下方log中
+</span><span class="SemanticString"><em class="SemanticString__Fragment SemanticString__Fragment--Italic">S0 apply msg: {true 101 1 false [] 0 0} 
+</em></span><span class="SemanticString">重复出现，且重联后，并未一直尝试Append(在第一次被拒绝后)导致没有及时更新。</span></span></del></div></div></div><details id="https://www.notion.so/36cfd6f083224a4ea2b93b2577393204" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/86f22189aaf7417c8f607be813917919" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S0 reconnect...                                                                                                                                                
+                                                                                                           S2 recv command, LENLOG: 6, T: 1                    
+                                                                                                           S2 send to S1, ENTRIES: [{106 1 6}]                 
+                                                                                                           S2 send to S0, ENTRIES: [{102 1 2} {103 1 3} {104 1 
+                                                                                                           4} {105 1 5} {106 1 6}]                             
+                                                      S1 recv append from S2, T: 1, ENTRIES: [{106 1 6}]                                                       
+                                                      S1 -&gt; S2 append ok T: 1, LENLOG: 7                                                                       
+S0 recv append from S2, T: 1, ENTRIES: [{102 1 2}                                                                                                              
+{103 1 3} {104 1 4} {105 1 5} {106 1 6}]                                                                                                                       
+S0 append fail, T: 6 large term                                                                                                                                
+                                                                                                           S2 -&gt; S1 T: 1, send {PLI: 5, PLT: 1, CI: 5,         
+                                                                                                           BEGINLOGIDX: 6, ENDLOGIDX: 6, LOG: [{106 1 6}]}     
+                                                                                                           S2 update commitIndex CI: 6                         
+                                                                                                           S2 apply msg: {true 106 6 false [] 0 0}             
+                                                                                                           S2 -&gt; S0 T: 1, send {PLI: 1, PLT: 1, CI: 5,         
+                                                                                                           BEGINLOGIDX: 2, ENDLOGIDX: 6, LOG: [{102 1 2} {103 1
+                                                                                                           3} {104 1 4} {105 1 5} {106 1 6}]}                  
+                                                                                                           S2 convert to candidate, calling election T: 6      
+                                                      S1 C6 ask for vote, T: 7                                                                                 
+S0 C6 ask for vote, T: 7                                                                                                                                       
+                                                      S1 -&gt; S2 vote true, from T: 1 to CT: 7                                                                   
+S0 -&gt; S2 vote true, from T: 6 to CT: 7                                                                                                                         
+                                                                                                           S2 convert to leader at T: 7                        
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+                                                      S1 apply msg: {true 106 6 false [] 0 0}                                                                  
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 append fail, diff term                                                                                                                                      
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 update failed, NEXT: 6                     
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 append fail, diff term                                                                                                                                      
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 update failed, NEXT: 5                     
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 append fail, diff term                                                                                                                                      
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 update failed, NEXT: 4                     
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, fail send {PLI: 1, PLT: 1, CI: 4}    
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 append fail, diff term                                                                                                                                      
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 update failed, NEXT: 3                     
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 append fail, diff term                                                                                                                                      
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 update failed, NEXT: 2                     
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 -&gt; S2 recv heartbeat                                                                                                                                        
+S0 apply msg: {true 101 1 false [] 0 0}                                                                                                                        
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat                       
+                                                                                                           S2 -&gt; S0 T: 7, fail send {PLI: 1, PLT: 1, CI: 3}    
+                                                      S1 recv append from S2, T: 7, ENTRIES: []                                                                
+                                                      S1 -&gt; S2 recv heartbeat                                                                                  
+                                                                                                           S2 -&gt; S1 T: 7, send heartbeat                       
+S0 recv append from S2, T: 7, ENTRIES: []                                                                                                                      
+S0 -&gt; S2 recv heartbeat                                                                                                                                        
+                                                                                                           S2 -&gt; S0 T: 7, send heartbeat</span></span></span></code></pre></div></details><details id="https://www.notion.so/2eef3b428ec04fdb8b982999f466add1" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/110ce0e9be8741f29eac6b821559db24" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">只要leaderCommit比自己的commitId要大，就会信号提示applyMsg。</span></span></li><li id="https://www.notion.so/f7eb0abc28074808bfdfab6d37b08ce1" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">重联后会重新选举Leader，也就是说重新选出的Leader会重新初始化自己的nextIndex。自然的，第一次尝试对重联的Server进行append会因为没有匹配的index而被拒绝，于是寄了。</span></span></li></ol></div></details><details id="https://www.notion.so/6c49599a91ff4915b7d9841d4ff4e13d" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/c9e22b19f67546dabb5c237852e753be" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">不再对heartbeat特殊对待，也就是说heartbeat和broadcast争抢对Server的更新</span></span></li></ol><div id="https://www.notion.so/e84a956f718e451dbd3233f7f1bff3d9" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></div></details><div id="https://www.notion.so/34e645e35e284fe88cc1323d6ecaaa0c" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">Apply massage的时候出现了顺序出错的问题</span></span></del></div></div></div><details id="https://www.notion.so/1f2aa1c53aef4ed5bf76c430dd9b05f5" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/9aec9834ceea4838bf372b91669e19ec" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>// log
+S0 commitIndex: 6                                                                                                                                                    
+S0 -&gt; S2 append ok T: 9, LENLOG: 7                                                                                                                                   
+                                                                                                               S2 -&gt; S1 T: 9, send heartbeat                         
+                                                                                                               S2 -&gt; S1 update success, NEXT: [1 7 7], MATCH: [0 6 0]
+                                                                                                               S2 get N: 6                                           
+S0 apply msg: {true 106 6 false [] 0 0}                                                                                                                              
+S0 ######## CI: 6, cfg.log: [map[0:init server 1:101]                                                                                                                
+map[0:init server 1:101 2:102 3:103 4:104 5:105 6:106]                                                                                                               
+map[0:init server 1:101 2:102 3:103 4:104 5:105 6:106]]                                                                                 S2 -&gt; S0 T: 7, send heartbeat
+
+
+// related code
+func (cfg *config) checkLogs(i int, m ApplyMsg) (string, bool) {
+	err_msg := &quot;&quot;
+	v := m.Command
+	for j := 0; j &lt; len(cfg.logs); j++ {
+		if old, oldok := cfg.logs[j][m.CommandIndex]; oldok &amp;&amp; old != v {
+			log.Printf(&quot;%v: log %v; server %v\n&quot;, i, cfg.logs[i], cfg.logs[j])
+			// some server has already committed a different value for this entry!
+			err_msg = fmt.Sprintf(&quot;commit index=%v server=%v %v != server=%v %v&quot;,
+				m.CommandIndex, i, m.Command, j, old)
+		}
+	}
+
+	DebugLog(dDrop, &quot;S%d ######## CI: %d, cfg.log: %v\n&quot;, i, m.CommandIndex, cfg.logs)
+	_, prevok := cfg.logs[i][m.CommandIndex-1]
+	cfg.logs[i][m.CommandIndex] = v
+	if m.CommandIndex &gt; cfg.maxIndex {
+		cfg.maxIndex = m.CommandIndex
+	}
+	return err_msg, prevok
+}</span></span></span></code></pre></div></details><details id="https://www.notion.so/ee108e54189b43548fca297617067347" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/5bfa5f57e09643e6a87d984938308b45" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">首先，chan是一个fifo。这里会根据fifo中吐出的ApplyMsg进行判断，将ApplyMsg中的信息提取并储存在cfg.log中。Server重联后，仅放入最新的ApplyMsg会导致index out of range的问题。</span></span></li></ol></div></details><details id="https://www.notion.so/6aa0c199297b4eb1a76fd44eb547e270" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/b4aa6ae5fcf54bd08d15e1d2137d235d" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">也就是说，需要按照顺序往chan里一个一个放入ApplyMsg而不是仅放入最新的ApplyMsg。</span></span></li></ol></div></details><div id="https://www.notion.so/1c9878209f3347de97ab0728ecd3272e" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">PASS LOG</span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/1fc16c0c754b41ec8247d8cc75eab651" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜ go test -run 2B   
+Test (2B): basic agreement ...
+  ... Passed --   0.5  3   16    4290    3
+Test (2B): RPC byte count ...
+  ... Passed --   1.3  3   48  113614   11
+Test (2B): agreement after follower reconnects ...
+  ... Passed --   5.3  3  192   50800    8
+Test (2B): no agreement if too many followers disconnect ...
+  ... Passed --   3.4  5  264   51340    3
+Test (2B): concurrent Start()s ...
+  ... Passed --   0.6  3   24    6790    6
+Test (2B): rejoin of partitioned leader ...
+  ... Passed --   3.9  3  146   35480    4
+Test (2B): leader backs up quickly over incorrect follower logs ...
+  ... Passed --  14.0  5 2244 1728755  102
+Test (2B): RPC counts aren&#x27;t too high ...
+  ... Passed --   2.0  3   62   18665   12
+PASS
+ok      6.824/raft      31.039s</span></span></span></code></pre></div></div><h3 id="https://www.notion.so/6f32d0c97f2c48bab2bb84109ef8d27a" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/6f32d0c97f2c48bab2bb84109ef8d27a"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">2C</span></span></h3><div id="https://www.notion.so/afa837a36ee949a6a1be7623bed76090" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">一运行到unrealiable的test就出现out of index的错误，现在想来好像在</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">2B</strong></span><span class="SemanticString">中偶尔也会出现这个错误，还债了属于是。</span></span></del></div></div></div><details id="https://www.notion.so/512189265cb14939bc03a5eb3c0d6dee" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/9c8ef634328f4622a105b5c0e434cb05" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜ go test -run UnreliableChurn
+Test (2C): unreliable churn ...
+panic: runtime error: index out of range [8] with length 8
+
+goroutine 22 [running]:
+6.824/raft.(*Raft).Apply(0xc0001b2000)
+        /home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:596 +0x214
+created by 6.824/raft.Make
+        /home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:757 +0x3d6
+exit status 2
+FAIL    6.824/raft      0.300s</span></span></span></code></pre></div></details><details id="https://www.notion.so/b4e63506881045118d7ab6f4cdcb5ec9" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/bb01cc25c81f4e1b97ea3c80685deff2" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">很奇怪，有时可以通过，有时不行，2C中的Unreliable测试放大了系统的弱点，可以确定的是，心跳间隔的设置和这个错误是有关的。后来发现原来是因为延迟，Follower接受了Index更古老的消息，并覆盖了新的消息。</span></span><pre id="https://www.notion.so/5576443730954b16a1253a84537abc74" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S0 reconnect...                                                                                                                                  
+                              S1 reconnect...                                                                                                    
+                                                           S2 reconnect...                                                                       
+                                                                                        S3 reconnect...                                          
+                                                                                        S3 -&gt; S4 append ok T: 26,                                
+                                                                                        LENLOG: 207                                              
+                                                                                                                     S4 -&gt; S2 LogInfo {IDX: 192, 
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 LogInfo {IDX: 192,       
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 send to S2, ENTRIES:     
+                                                                                                                     {426083054347800940 26 206} 
+                                                                                                                     S4 -&gt; S3 update success,    
+                                                                                                                     NEXT: [193 205 193 207 193],
+                                                                                                                     MATCH: [0 204 0 206 0]      
+                                                                                                                     S4 get N: 204               
+                                                                                                                     S4, LENLOG: 207, LA: 204    
+                                                                                                                     apply msg {CI: 205}         
+                                                                                                                     S4 -&gt; S3 LogInfo {IDX: 206, 
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 LogInfo {IDX: 206,       
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 send to S3, ENTRIES:     
+                                                                                                                     {426083054347800940 26 206} 
+                              S1 -&gt; S4 append ok T: 26,                                                                                          
+                              LENLOG: 207                                                                                                        
+                                                           S2 append fail, T: 27 large                                                           
+                                                           term                                                                                  
+                                                                                                                     S4 -&gt; S1 update success,    
+                                                                                                                     NEXT: [193 207 193 207 193],
+                                                                                                                     MATCH: [0 206 0 206 0]      
+                                                                                                                     S4 get N: 206               
+                                                                                                                     S4 update commitIndex CI:   
+                                                                                                                     206                         
+                                                                                                                     S4, LENLOG: 207, LA: 205    
+                                                                                                                     apply msg {CI: 206}         
+                                                                                                                     S4 -&gt; S2 LogInfo {IDX: 192, 
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 LogInfo {IDX: 192,       
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 send to S2, ENTRIES:     
+                                                                                                                     {426083054347800940 26 206} 
+                                                                                        S3 commit {CI: 205, LENLOG:                              
+                                                                                        207}                                                     
+                                                           S2 append fail, T: 27 large                                                           
+                                                           term                                                                                  
+                                                                                                                     S4 reconnect...             
+                              S1 -&gt; S4 append ok T: 26,                                                                                          
+                              LENLOG: 206                                                                                                        
+                                                                                                                     S4 -&gt; S1 LogInfo {IDX: 206, 
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 LogInfo {IDX: 206,       
+                                                                                                                     LENLOG: 207, LOG:           
+                                                                                                                     {426083054347800940 26 206}}
+                                                                                                                     S4 send to S1, ENTRIES:     
+                                                                                                                     {426083054347800940 26 206} 
+                                                                                        S3 -&gt; S4 append ok T: 26,                                
+                                                                                        LENLOG: 205</span></span></span></code></pre></li><li id="https://www.notion.so/88e5508abfe644aa8e99d28b3f42b30a" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">有时候会出现索引取到-1的情况，排查出是append时条件设置有误。</span><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">此外，当一个Server detach以后，会持续向别的server发送信息，不断收到fail update，自然会不断减小nextIndex的值。直到nextIndex变为0,自减后变为-1,索引越界。</span></span></span></li></ol></div></details><details id="https://www.notion.so/dd5248ef526f4cfb9502695374dc5ec0" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/80517a7a02f84853927f47290ddedc67" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">修改条目更新的规则，遵循VoteRequest RPCs中的up-to-date原则。</span></span><pre id="https://www.notion.so/7e8d85ede8b7473785986f734abf7b49" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>if len(args.Entries) == 0 {
+	DebugLog(dLog, &quot;S%d -&gt; S%d recv heartbeat\n&quot;, rf.me, args.LeaderId, rf.currTerm, len(rf.logEntries))
+} else {
+	rfLastLogIndex, rfLastLogTerm := rf.LogInfoByIndex(len(rf.logEntries) - 1)
+	argLastLogIndex, argLastLogTerm := args.Entries[len(args.Entries)-1].Index, args.Entries[len(args.Entries)-1].Term
+	if rfLastLogTerm &lt; argLastLogTerm || (rfLastLogTerm == argLastLogTerm &amp;&amp; rfLastLogIndex &lt; argLastLogIndex) {
+		rf.logEntries = rf.logEntries[:args.PrevLogIndex+1]
+		rf.logEntries = append(rf.logEntries, args.Entries...) // persist
+		rf.persist()
+	}
+
+	DebugLog(dLog2, &quot;S%d -&gt; S%d append ok T: %d, LENLOG: %d\n&quot;, rf.me, args.LeaderId, rf.currTerm, len(rf.logEntries))
+}</span></span></span></code></pre><div id="https://www.notion.so/9115f8b429544a33ac4d0611e625147e" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">同时要注意修改reply处理部分的代码，不然会将nextIndex和matchIndex更新成旧的索引。</span></span></p></div><pre id="https://www.notion.so/36dbd118498b427fa153f2a65374c219" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>if reply.Success {
+	if rf.nextIndex[id] &lt; endOfIndex {
+		rf.nextIndex[id] = endOfIndex
+		rf.matchIndex[id] = endOfIndex - 1
+		DebugLog(dError, &quot;S%d -&gt; S%d update success, NEXT: %v, MATCH: %v\n&quot;, rf.me, id, rf.nextIndex, rf.matchIndex)
+		go rf.updateCommitIndex()
+	}
+	// 讲道理，更新成功就要试试能不能update commitIndex
+} else {
+	rf.nextIndex[id] /= 2
+	DebugLog(dError, &quot;S%d -&gt; S%d update failed, NEXT: %d\n&quot;, rf.me, id, rf.nextIndex[id])
+}</span></span></span></code></pre></li><li id="https://www.notion.so/b9f81e66efb0481f9f56df1cfa9d1594" class="NumberedList" value="2"><span class="SemanticStringArray"><span class="SemanticString">贴出错误代码</span></span><pre id="https://www.notion.so/182343dcdfbc49b0bddc630d7d3dbd7c" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><del class="SemanticString__Fragment SemanticString__Fragment--Strike"><span>if args.PrevLogIndex &gt;= len(rf.logEntries) || rf.logEntries[args.PrevLogIndex].Term != args.PrevLogTerm {
+</span></del></span><span class="SemanticString"><span>if args.PrevLogIndex &gt; len(rf.logEntries)-1 || rf.logEntries[args.PrevLogIndex].Term != args.PrevLogTerm {
+	reply.Success = false
+	DebugLog(dVote, &quot;S%d append fail, diff term\n&quot;, rf.me)
+	return
+}</span></span></span></code></pre><div id="https://www.notion.so/47268aadee674690812435968b65598c" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">此外，打了个补丁，让nextIndex等于max(1, nextIndex/2)，不知道这个补丁可不可以美化。</span></span></span></p></div></li></ol></div></details><div id="https://www.notion.so/f648100fbdbd43ec8bd200018515fe59" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">有极小的概率出现问题：ApplyMsg顺序错位。</span></span></del></div></div></div><details id="https://www.notion.so/be703398d02847cea1685fbc2f2a7c5b" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/db042ba8c9fd435d83b1a7d1c348fdba" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>Test (2C): Figure 8 (unreliable) ...
+3: log map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167]; server map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167 52:9070 53:9855 54:4432 55:1244 56:1773 57:5898 58:2104 59:6905 60:3111 61:6309 62:8721 63:1023 64:4093 65:7848 66:7256 67:6673 68:4167 69:7717 70:9556]
+3: log map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167]; server map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167 52:9070 53:9855 54:4432 55:1244 56:1773 57:5898 58:2104 59:6905 60:3111 61:6309 62:8721 63:1023 64:4093 65:7848 66:7256 67:6673 68:4167 69:7717 70:9556]
+3: log map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167]; server map[1:2296 2:812 3:2449 4:9494 5:4661 6:4352 7:549 8:7084 9:6810 10:2131 11:5797 12:3999 13:6910 14:5209 15:4842 16:8485 17:8166 18:6914 19:6957 20:2262 21:4452 22:1043 23:1784 24:9148 25:759 26:2552 27:7916 28:6243 29:3173 30:749 31:3392 32:2467 33:1591 34:2306 35:2107 36:9868 37:9973 38:1755 39:8718 40:6107 41:7839 42:2187 43:1553 44:629 45:6596 46:4295 47:1687 48:9196 49:2304 50:54 51:6167 52:9070 53:9855 54:4432 55:1244 56:1773 57:5898 58:2104 59:6905 60:3111 61:6309 62:8721 63:1023 64:4093 65:7848 66:7256 67:6673 68:4167 69:7717 70:9556]
+apply error: commit index=52 server=3 2540 != server=4 9070</span></span></span></code></pre></div></details><details id="https://www.notion.so/75654e0660a340adbbcadc7d0b418930" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/32ae08d9f7514fedbe0ff73b1b7ac607" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">没排查出来</span></span></li></ol></div></details><details id="https://www.notion.so/a809cc566b9e491cb8a1d08381c38d2e" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/d27d855a2e11424ab64f0a7b4759327e" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">将AppendEntries中的 </span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">defer rf.applyCh.Signal()</code></span><span class="SemanticString"> 变成了 </span><span class="SemanticString"><code class="SemanticString__Fragment SemanticString__Fragment--Code">rf.applyCh.Signal()</code></span></span></li></ol></div></details><div id="https://www.notion.so/f882476d57a74eba9fd6339471560a9a" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">PASS LOG</span></span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/e3d435da057843ff9030cf1f527ce4e2" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜ go test -run 2C                                               
+Test (2C): basic persistence ...
+  ... Passed --   3.1  3   78   18954    6
+Test (2C): more persistence ...
+  ... Passed --  14.4  5 1036  200240   16
+Test (2C): partitioned leader and one follower crash, leader restarts ...
+  ... Passed --   1.3  3   36    8539    4
+Test (2C): Figure 8 ...
+  ... Passed --  27.0  5 1180  256006   58
+Test (2C): unreliable agreement ...
+  ... Passed --   1.7  5 1048  345471  246
+Test (2C): Figure 8 (unreliable) ...
+  ... Passed --  33.6  5 19228 18476272  138
+Test (2C): churn ...
+  ... Passed --  16.4  5 6992 9763562 1432
+Test (2C): unreliable churn ...
+  ... Passed --  16.1  5 4236 5664994  384
+PASS
+ok      6.824/raft      113.623s</span></span></span></code></pre></div></div><h3 id="https://www.notion.so/d3ef8ee4d8f549459c28cd4077377ab2" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--3"><a class="Anchor" href="#https://www.notion.so/d3ef8ee4d8f549459c28cd4077377ab2"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">2D</span></span></h3><blockquote id="https://www.notion.so/3fb57bb3937848a29b6130b3e4826a53" class="ColorfulBlock ColorfulBlock--ColorDefault Quote"><span class="SemanticStringArray"><span class="SemanticString">在2D中，很重要的一点是，切片底层是数组实现，如果想要让GC reach到被snapshot掉的无用内存，就需要重新创建切片，原切片指针置空。</span></span></blockquote><div id="https://www.notion.so/53614c5c6dd743d58d80ce5a11d8eb25" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">有概率出现问题：在更新commitIndex的时候出现out of Index问题。</span></span></del></div></div></div><details id="https://www.notion.so/efb293bfeaf641c3abbb9b472ae0c6e6" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/d38af99a2f07495c8f63499a1b4b76f8" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>Test (2C): unreliable churn ...
+panic: runtime error: index out of range [1656] with length 1656
+
+goroutine 106315 [running]:
+6.824/raft.(*Raft).updateCommitIndex(0xc000136200)
+        /home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:647 +0x345
+created by 6.824/raft.(*Raft).broadcastAppendEntries.func1
+        /home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:622 +0x796
+exit status 2</span></span></span></code></pre></div></details><details id="https://www.notion.so/051514498a634d22b5e69b7ce962d7f1" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/1c312d8e4a074907986009184322dd10" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">updateCommitIndex函数原本是使用协程实现的，所以有极小的概率，在updateCommitIndex之前，完成了Leader转换、重新广播、更新新的CommitIndex这一系列操作。使得一开始的更新协程出现越界。</span></span></li></ol></div></details><details id="https://www.notion.so/bb4efcce59a04526b21d4b2007494843" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/84530e7ff0f04b49a707f9c941c7ea33" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">线性执行updateCommitIndex，去除函数中的加锁操作，统一由主协程管理锁</span></span><pre id="https://www.notion.so/2eaed3c5cae841bbbb3289f07aed8450" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>func (rf *Raft) updateCommitIndex() {
+	// rf.mu.Lock()
+	// defer rf.mu.Unlock()
+
+	var dupMatchIndex []int
+	dupMatchIndex = append(dupMatchIndex, rf.matchIndex...)
+	dupMatchIndex[rf.me] = rf.logEntries[len(rf.logEntries)-1].Index
+	sort.Ints(dupMatchIndex)
+	DebugLog(dError, &quot;S%d get N: %d\n&quot;, rf.me, dupMatchIndex[(len(rf.peers)-1)/2])
+
+	var N int = dupMatchIndex[(len(rf.peers)-1)/2]
+	if N &gt; rf.commitIndex &amp;&amp; rf.logEntries[N].Term == rf.currTerm {
+		rf.commitIndex = N
+		defer rf.applyCond.Signal()
+		DebugLog(dError, &quot;S%d update commitIndex CI: %d\n&quot;, rf.me, rf.commitIndex)
+	}
+}</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/05f48fe987c342afa373bd00f24148a9" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">死锁问题：</span><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">一开始执行Snapshot函数就卡在获得锁的操作这里。</span></span></span></del></div></div></div><details id="https://www.notion.so/fb4c1c6474f5477c99badc4d92f10390" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/2a4a09c856184f29b5b55c15660b95ca" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S2 LogInfo {IDX: 13,                                                          
+                                                      LENLOG: 14, LOG:                                                              
+                                                      {8815208668614808923 1                                                        
+                                                      13}}                                                                          
+                                                      S2 -&gt; S1 append ok T: 1,                                                      
+                                                      LENLOG: 14                                                                    
+                            S1 start create snapshot                                                                                
+                            LII: 9, T: 1                                                                                            
+                            S1 start create snapshot,                                                                               
+                            before lock                                                                                             
+                            S1, LENLOG: 14, LA: 1                                                                                   
+                            apply msg {CI: 10}                                                                                      
+S0 convert to candidate,                                                                                                            
+calling election T: 1                                                                                                               
+S0 LogInfo {IDX: 1, LENLOG:                                                                                                         
+2, LOG:                                                                                                                             
+{7859782014890577642 1 1}}                                                                                                          
+                                                      S2 C1 ask for vote, T: 2                                                      
+                            S1 C1 ask for vote, T: 2                                                                                
+                                                      S2 LogInfo {IDX: 13,                                                          
+                                                      LENLOG: 14, LOG:                                                              
+                                                      {8815208668614808923 1                                                        
+                                                      13}}                                                                          
+                                                      S2 -&gt; S0 vote false, old                                                      
+                                                      log                                                                           
+                                                      S2 convert to candidate,                                                      
+                                                      calling election T: 2                                                         
+                                                      S2 LogInfo {IDX: 13,                                                          
+                                                      LENLOG: 14, LOG:                                                              
+                                                      {8815208668614808923 1                                                        
+                                                      13}}                                                                          
+                            S1 C1 ask for vote, T: 3                                                                                
+S0 C1 ask for vote, T: 3                                                                                                            
+S0 LogInfo {IDX: 1, LENLOG:                                                                                                         
+2, LOG:                                                                                                                             
+{7859782014890577642 1 1}}                                                                                                          
+S0 -&gt; S2 vote true, from T:                                                                                                         
+2 to CT: 3                                                                                                                          
+                                                      S2 convert to leader at                                                       
+                                                      T: 3                                                                          
+                                                      S2 -&gt; S1 LogInfo {IDX:                                                        
+                                                      13, LENLOG: 14, LOG:                                                          
+                                                      {8815208668614808923 1                                                        
+                                                      13}}                                                                          
+                                                      S2 LogInfo {IDX: 13,                                                          
+                                                      LENLOG: 14, LOG:                                                              
+                                                      {8815208668614808923 1                                                        
+                                                      13}}</span></span></span></code></pre></div></details><details id="https://www.notion.so/63e47ff6be574d5da499fa2c62bd76f0" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/436bbafc103c496ea5d806323a75bbe0" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">快照的间隔是每10条command进行一次快照，因此节点在进行将已经提交了的指令发送到applyCh进行执行的时候不能获取有rf.mu这个互斥锁，因为在你提交指令并将该指令发送到applyCh执行的同时，测试脚本会调用Snapshot函数进行快照，但是我设计的这个函数也需要获取rf.mu互斥锁，那么这个节点就会进入死锁状态：无法获取rf.mu互斥锁进行快照，另一边是需要等快照结束才能继续提交指令并执行，以及后续动作。</span></span></li></ol></div></details><details id="https://www.notion.so/03c60d54823847e79b9218bbe1c4a3ac" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/5877443c66b64ef288fd61effebe4c0b" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在Apply函数中进行如下修改</span></span><pre id="https://www.notion.so/c924dee906324100a7810af662f45f58" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	++	rf.mu.Unlock()
+			rf.applyCh &lt;- msg
+	++	rf.mu.Lock()</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/c83d60d349824c26b1a62b128e10bae2" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">AppendEntries中出现负数的Log索引</span></span></del></div></div></div><details id="https://www.notion.so/61a4dd1b1d224aa0aba368f33c878498" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/f8387e99f51544b2ab8eb3812dbf075d" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">原来只需要检查args.PrevLogIndex小于等于Log最后一项的索引值。但是在引入snapshot后还需要检查args.PrevLogIndex大于等于lastIncludedIndex，因为历史的AppendEntries RPC可以延迟抵达</span></span><pre id="https://www.notion.so/b37b5abf7fda418ca2ddb025c66fd222" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	if args.PrevLogIndex &gt; rf.logEntries[len(rf.logEntries)-1].Index ||
+		rf.logEntries[args.PrevLogIndex-rf.snapshot.LastIncludedIndex].Term != args.PrevLogTerm { // ATTENTION 这里可能会越界，要减去lastincludedindex
+		reply.Success = false
+		DebugLog(dVote, &quot;S%d append fail, diff term\n&quot;, rf.me)
+		return
+	}</span></span></span></code></pre></li></ol></div></details><details id="https://www.notion.so/6dc7bfb406b348648d8568a323219994" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/023faf2752f945a684fe5f4ccdd9daf2" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在这种情况下，可以直接将reply的success置true并返回，因为对于成功时返回值的处理已经考虑到了延迟消息（2C）</span></span><pre id="https://www.notion.so/b225de38c231465c9faa16fa88296df9" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	if rf.snapshot.LastIncludedIndex &gt; args.PrevLogIndex {
+		reply.Success = true
+		DebugLog(dVote, &quot;S%d append success, snapshot interrupt...\n&quot;, rf.me)
+		return
+	}</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/9b8f8bf1338541a6879855c368b13d6b" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString"><span class="SemanticString__Fragment SemanticString__Fragment--Commented">broadcast中出现负数的Log索引</span></span></span></del></div></div></div><details id="https://www.notion.so/b67a2499d0074de2b99bd570ee4b04f1" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><div id="https://www.notion.so/fa086fd0a9f0469fbd8f72fee1dc4bcd" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">nextIndex[0] == snapshot.lastIncludedIndex</span></span></p></div><pre id="https://www.notion.so/74004a4c30ac4c2e88f7ec32c0aa7ecd" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S1 -&gt; S0 LogInfo {IDX: 108,                                                                                                 
+                                 LENLOG: 8, LOG:                                                                                                             
+                                 {5178380306894727311 1 116}},                                                                                               
+                                 NEXT: [109 1 117], SS: {109 1}                                                                                              
+                                                                S2, LENLOG: 18, LA: 108 apply                                                                
+                                                                msg {CI: 109}                                                                                
+                                                                S2, LENLOG: 18, LA: 108 apply                                                                
+                                                                msg {CI: 110}                                                                                
+                                                                S2 -&gt; S1 recv heartbeat
+
+#################################################
+panic: runtime error: index out of range [-1]
+
+goroutine 890 [running]:
+6.824/raft.(*Raft).LogInfoByIndex(0xc000134100, 0xffffffffffffffff)
+	/home/humborn/Code/go/MIT-6.5840/src/raft/util.go:101 +0xbd
+6.824/raft.(*Raft).broadcastAppendEntries.func1(0x0)
+	/home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:716 +0x84c
+created by 6.824/raft.(*Raft).broadcastAppendEntries
+	/home/humborn/Code/go/MIT-6.5840/src/raft/raft.go:669 +0x15f
+exit status 2</span></span></span></code></pre></div></details><details id="https://www.notion.so/7cfe0b08897343de9fc68d36aa9a7952" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/9549d888b4d04e7e90b84fdd8b486379" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">同样的，广播发布了协程后并未立即执行，而snapshot在协程运行之前更新了lastIncludedIndex。仔细观察可以发现出错的Log的索引都是mod 10余9的，对应了snapshot的生成规律，验证了猜想。</span></span><pre id="https://www.notion.so/8c15a8bcb5684756915d984af8a5f19a" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	if args.PrevLogIndex &gt; rf.logEntries[len(rf.logEntries)-1].Index ||
+		rf.logEntries[args.PrevLogIndex-rf.snapshot.LastIncludedIndex].Term != args.PrevLogTerm { // ATTENTION 这里可能会越界，要减去lastincludedindex
+		reply.Success = false
+		DebugLog(dVote, &quot;S%d append fail, diff term\n&quot;, rf.me)
+		return
+	}</span></span></span></code></pre></li></ol></div></details><details id="https://www.notion.so/9a0427d34b3f431ba5dfebfb592fb976" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/0a80fe07be1a4458b604c76edcbeee56" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">将广播条件中触发快照加载的条件由 &lt; 改为 ≤ 。</span></span><pre id="https://www.notion.so/393d441633d54a79b2cc00fd456b835a" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>go func(id int) {
+			rf.mu.Lock()
+			// 需要注意的是，当rf.nextIndex[id] == rf.logEntries[len(rf.logEntries)-1].Index+1，对应的是发送heartbeat的情况
+			if rf.nextIndex[id] &gt; rf.logEntries[len(rf.logEntries)-1].Index+1 {
+				rf.mu.Unlock()
+				return
+			}
+
+			</span></span><span class="SemanticString"><del class="SemanticString__Fragment SemanticString__Fragment--Strike"><span>if rf.nextIndex[id] &lt; rf.snapshot.LastIncludedIndex {</span></del></span><span class="SemanticString"><span>
+			if rf.nextIndex[id] &lt;= rf.snapshot.LastIncludedIndex {</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/9ba88ea8a1ba47e79b8ddec0903f4e4e" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">ApplyMsg顺序错位第二弹，详循2C中的第二个问题</span></span></del></div></div></div><details id="https://www.notion.so/cbc53a604bf644d78d4b3af0383cd7bb" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/e38d1883682c4c6ca36fd40b6a9fda41" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>Test (2D): snapshots basic ...
+apply error: server 0 apply out of order, expected index 100, got 101
+exit status 1
+FAIL    6.824/raft      1.269s</span></span></span></code></pre></div></details><details id="https://www.notion.so/dc189bdd6bbc48f287e233d1e5da3987" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/dfc60970b3414e76bf68e66e3362cbdf" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在原来的Apply实现中，循环中的cid只被初始化了一次，但是在这里，每次循环中会随插入记录的数量增加生成snapshot，改变原来的初始值。</span></span><pre id="https://www.notion.so/d2a2092ce63c4594998c69b868bf1e46" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>		for cid := max(rf.lastApplied, rf.snapshot.LastIncludedIndex) + 1; cid &lt;= rf.commitIndex; cid++ {
+			DebugLog(dError, &quot;S%d, LENLOG: %d, LA: %d apply msg {CI: %d} \n&quot;, rf.me, len(rf.logEntries), rf.lastApplied, cid)
+			msg := ApplyMsg{
+				CommandValid: true,
+				Command:      rf.logEntries[cid-rf.snapshot.LastIncludedIndex].Command,
+				CommandIndex: cid,
+			}
+			rf.mu.Unlock()
+			rf.applyCh &lt;- msg
+			rf.mu.Lock()
+		}</span></span></span></code></pre></li></ol></div></details><details id="https://www.notion.so/9bdd505075684d2393a322409fcc591b" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/dff51f1ee7c3414283962ebc73ecdb67" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">多次初始化。</span></span><pre id="https://www.notion.so/e07f7ce98c5f4bb1a914932b9b939d4f" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>		cid := max(rf.lastApplied, rf.snapshot.LastIncludedIndex) + 1
+		for cid &lt;= rf.commitIndex {
+			DebugLog(dError, &quot;S%d, LENLOG: %d, LA: %d apply msg {CI: %d} \n&quot;,
+				rf.me, len(rf.logEntries), rf.lastApplied, cid)
+			msg := ApplyMsg{
+				CommandValid: true,
+				Command:      rf.logEntries[cid-rf.snapshot.LastIncludedIndex].Command,
+				CommandIndex: cid,
+			}
+			rf.mu.Unlock()
+			rf.applyCh &lt;- msg
+			rf.mu.Lock()
+			rf.lastApplied = cid
+			cid = max(rf.lastApplied, rf.snapshot.LastIncludedIndex) + 1
+		}</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/c79d331934464ed181f55368459ef13a" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">首先，可以知道，apply out of order有两种形态，一种是接收到了有延迟的信息，还有一种是接收到了未来的信息。以InstallSnapshot RPC为例，可以通过下面这段代码对延迟信息进行过滤。但是raft的Term、commitIndex和lastApplied等索引都是完备的，讲道理不会出现“未来的”信息。</span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/66a66481640448b89e55894ca3115dd8" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	if rf.commitIndex &lt; args.LastIncludedIndex {
+		rf.commitIndex = args.LastIncludedIndex
+	}
+	if rf.lastApplied &lt; args.LastIncludedIndex {
+		rf.lastApplied = args.LastIncludedIndex
+	}</span></span></span></code></pre></div></div><details id="https://www.notion.so/cd932309114d4436883aa710b0c05a68" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><pre id="https://www.notion.so/f09203cbb59443ef9ba5c7df678dd1e5" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>apply error: server 0 apply out of order, expected index 230, got 231
+exit status 1
+FAIL	6.824/raft	1.852s</span></span></span></code></pre></div></details><details id="https://www.notion.so/b09f53ec07524c31ab56b0d70cfa08bf" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/6fd2af3e553540bd86820835ff68f8d9" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在测试代码中，snapshot在ApplyCh中被接收后，会以自身的lastIncludedIndex刷新service server的对应参数，造成“版本回退”。</span></span></li></ol></div></details><details id="https://www.notion.so/fbbf594074f34b85ab390dab44c86042" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/bda000359f2d4110a4535c822be60d1c" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">在InstallSnapshot中与lastApplied进行比较判断过滤“版本回退”</span></span><pre id="https://www.notion.so/6bd92357506b43e4944c05d19c20b51d" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>	if args.LastIncludedIndex &lt;= rf.snapshot.LastIncludedIndex ||
+		args.LastIncludedIndex &lt;= rf.lastApplied {
+		rf.mu.Unlock()
+		return
+	}</span></span></span></code></pre></li></ol></div></details><div id="https://www.notion.so/822ec6395bad4bb599522d9b76d0dd3c" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">会报莫名其妙的错误</span></span></del></div></div></div><details id="https://www.notion.so/035664ca2ada45b0b56c9513c51713b6" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">Debug log</span></span></summary><div class="Toggle__Content"><div id="https://www.notion.so/9bc52dc561684e63a1e7261e38d84e7f" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">第一列的Index和LII不对应造成的</span></span></p></div><pre id="https://www.notion.so/c4c366f02da14512ab188ab4280f2e67" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>S0 ingestSnap: snapshot doesn&#x27;t match                                                                                                                    
+m.SnapshotIndex, INDEX: 39, LII: 29                                                                                                                      
+S0 C46 install snapshot, IDX: 39 T: 1,                                                                                                                   
+start from 39 to 46                                                                                                                                      
+#############################################################################
+
+apply error: server 0 snapshot doesn&#x27;t match m.SnapshotIndex
+exit status 1
+FAIL	6.824/raft	1.041s</span></span></span></code></pre></div></details><details id="https://www.notion.so/c024abb9b1ba4ca38b1b2b26a2d47533" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">排查出的问题</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/f518ddd4df1446e1bad65bdb18a7edcd" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">由于在前面的问题排查中已经基本解决了out of order的问题，推测出现这种情况的原因是SaveStateAndSnapshot函数存在先后执行顺序，协程有延迟，使得保存的时候没有起到拦截out of order的作用</span></span></li></ol></div></details><details id="https://www.notion.so/431652892e114f66bb9e4c9b1e3f0f3e" class="ColorfulBlock ColorfulBlock--ColorDefault Toggle "><summary class="Toggle__Summary"><span class="SemanticStringArray"><span class="SemanticString">方案</span></span></summary><div class="Toggle__Content"><ol class="NumberedListWrapper"><li id="https://www.notion.so/cc0aed15451549668d152247da63dedd" class="NumberedList" value="1"><span class="SemanticStringArray"><span class="SemanticString">把所有的rf.mu.Lock()统统移到SaveStateAndSnapshot函数后面保证线性顺序。</span></span></li></ol></div></details><div id="https://www.notion.so/989226ac5c2c4b4eb6c8524083b7fac4" class="ColorfulBlock ColorfulBlock--ColorDefault ToDo"><div class="ToDo__Content"><div class="ToDo__Icon"><div class="IconCheckboxChecked"><svg viewBox="0 0 14 14"><polygon points="5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039"></polygon></svg></div></div><div class="ToDo__Title ToDo__Title--done"><del><span class="SemanticStringArray"><span class="SemanticString">PASS LOG</span></span></del></div></div><div class="ToDo__Children"><pre id="https://www.notion.so/f462bd0884964c728f5a61f87bfe0236" class="Code Code--NoWrap"><code><span class="SemanticStringArray"><span class="SemanticString"><span>➜ go test -run 2D              
+Test (2D): snapshots basic ...
+  ... Passed --   1.8  3  506  164008  235
+Test (2D): install snapshots (disconnect) ...
+  ... Passed --  32.9  3 2444 1245742  316
+Test (2D): install snapshots (disconnect+unreliable) ...
+  ... Passed --  38.7  3 3604 1300893  327
+Test (2D): install snapshots (crash) ...
+  ... Passed --  24.5  3 1148  879888  334
+Test (2D): install snapshots (unreliable+crash) ...
+  ... Passed --  33.0  3 1432  692990  322
+Test (2D): crash and restart all servers ...
+  ... Passed --   6.7  3  244   64312   54
+PASS
+ok      6.824/raft      137.622s</span></span></span></code></pre></div></div></article>
+  <footer class="Footer">
+  <div>&copy; humblog 2022</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
+</body>
+
+</html>
